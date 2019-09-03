@@ -4,7 +4,6 @@ package com.company;
 import java.util.ArrayList;
 
 public class Main {
-    static ArrayList<ArrayList<Person> allPersons = new ArrayList<>()>;
     static ArrayList<Person> Employees = new ArrayList<>();
     static ArrayList<Person> Members = new ArrayList<>();
     public static void main(String[] args) {
