@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class Main {
     static ArrayList<Person> Employees = new ArrayList<>();
     static ArrayList<Person> Members = new ArrayList<>();
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         //fitness employees
         Employees.add(new Administration("Claus", "221175-1011"));
         Employees.add(new Instructor("Tove", "011080-1014", 20));

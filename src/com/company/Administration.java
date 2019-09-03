@@ -20,10 +20,10 @@ public class Administration extends Employee {
 
     @Override
     public String toString() {
-        return name + "\t" +
-                cpr + "\t" +
-                hours + "\t\t" +
-                salary + "\t" +
-                vacation + "\t";
+        return getName() + "\t" +
+                getCpr() + "\t" +
+                getHours() + "\t\t" +
+                getSalary() + "\t" +
+                getVacation() + "\t";
     }
 }

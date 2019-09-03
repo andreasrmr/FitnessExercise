@@ -4,7 +4,7 @@ public class Instructor extends Employee{
 
     public Instructor(String name, String cpr, int hours) {
         super.hours = hours;
-        super.salary = super.hours = getSalary();
+        super.salary = getSalary();
         super.name = name;
         super.cpr = cpr;
     }
@@ -16,11 +16,10 @@ public class Instructor extends Employee{
 
     @Override
     public String toString() {
-        return name + "\t" +
-                cpr + "\t" +
-                hours + "\t" +
-                salary + "\t" +
-                vacation + "\t";
+        return getName() + "\t" +
+                getCpr() + "\t" +
+                getHours() + "\t\t" +
+                this.getSalary() + "\t";
     }
 
 }

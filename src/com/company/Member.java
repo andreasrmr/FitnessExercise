@@ -32,8 +32,8 @@ public class Member extends Person {
 
     @Override
     public String toString() {
-        return name + "\t" +
-                cpr + "\t" +
+        return getName() + "\t" +
+                getCpr() + "\t" +
                 getMemberType() + "\t" +
                 getMonthlyFee() + "\t\t\t";
     }
