@@ -4,6 +4,7 @@ public class Employee extends Person {
 
     int hours;
     int salary;
+    int vacation;
 
     public Employee() {
     }
@@ -23,4 +24,5 @@ public class Employee extends Person {
     public void setSalary(int salary) {
         this.salary = salary;
     }
+
 }

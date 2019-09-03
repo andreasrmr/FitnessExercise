@@ -16,11 +16,11 @@ public class Instructor extends Employee{
 
     @Override
     public String toString() {
-        return "Instructor{" +
-                "hours=" + hours +
-                ", salary=" + salary +
-                ", name='" + name + '\'' +
-                ", cpr='" + cpr + '\'' +
-                '}';
+        return name + "\t" +
+                cpr + "\t" +
+                hours + "\t" +
+                salary + "\t" +
+                vacation + "\t";
     }
+
 }

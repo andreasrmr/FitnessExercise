@@ -1,10 +1,9 @@
 package com.company;
 
 public class Administration extends Employee {
-    int vacation;
 
     public Administration(String name, String cpr) {
-        this.vacation = 5;
+        super.vacation = 5;
         super.hours = 37;
         super.name = name;
         super.cpr = cpr;
@@ -21,12 +20,10 @@ public class Administration extends Employee {
 
     @Override
     public String toString() {
-        return "Administration{" +
-                "vacation=" + vacation +
-                ", hours=" + hours +
-                ", salary=" + salary +
-                ", name='" + name + '\'' +
-                ", cpr='" + cpr + '\'' +
-                '}';
+        return name + "\t" +
+                cpr + "\t" +
+                hours + "\t\t" +
+                salary + "\t" +
+                vacation + "\t";
     }
 }

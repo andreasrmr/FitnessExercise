@@ -32,11 +32,9 @@ public class Member extends Person {
 
     @Override
     public String toString() {
-        return "Member{" +
-                "Member Type=" + getMemberType() +
-                ", name='" + name + '\'' +
-                ", cpr='" + cpr + '\'' +
-                ", Fee='" + getMonthlyFee() + '\'' +
-                '}';
+        return name + "\t" +
+                cpr + "\t" +
+                getMemberType() + "\t" +
+                getMonthlyFee() + "\t\t\t";
     }
 }
