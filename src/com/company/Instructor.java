@@ -16,7 +16,7 @@ public class Instructor extends Employee{
 
     @Override
     public String toString() {
-        return getName() + "\t" +
+        return getName() + "\t\t" +
                 getCpr() + "\t" +
                 getHours() + "\t\t" +
                 this.getSalary() + "\t";
