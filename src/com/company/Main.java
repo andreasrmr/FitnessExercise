@@ -19,6 +19,9 @@ public class Main {
         System.out.println();
         printAll();
 
+        FileHandling fileHandling = new FileHandling();
+        fileHandling.readString();
+
     }
     public static void printEmployees(){
         System.out.println("FITNESS EMPLOYEES\n");
